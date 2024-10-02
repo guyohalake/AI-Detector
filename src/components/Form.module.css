@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  width: 550px;
+  margin: 50px auto 0;
+  flex-direction: column;
+}
+.textarea {
+  width: 520px;
+  height: 350px;
+  display: block;
+  resize: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 0;
+  transition: box-shadow 0.5s;
+  margin-bottom: 10px;
+}
+.textarea:focus {
+  outline: none;
+  box-shadow: 0 0 15px #36383f inset;
+}
+.button {
+  width: fit-content;
+  margin: 0 auto;
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+.button:hover {
+  color: white;
+  background: #2d2929;
+  border: 1px solid white;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fadeIn 0.5s;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+@keyframes fadeIn {
+  0% {
+    top: -60px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .form {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+  .textarea {
+    width: 92%;
+  }
+}
