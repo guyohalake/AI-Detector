@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GPT-Detector/static/css/main.01746f76.css",
+    "main.js": "/GPT-Detector/static/js/main.4c7bd407.js",
+    "index.html": "/GPT-Detector/index.html",
+    "main.01746f76.css.map": "/GPT-Detector/static/css/main.01746f76.css.map",
+    "main.4c7bd407.js.map": "/GPT-Detector/static/js/main.4c7bd407.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01746f76.css",
+    "static/js/main.4c7bd407.js"
+  ]
+}
